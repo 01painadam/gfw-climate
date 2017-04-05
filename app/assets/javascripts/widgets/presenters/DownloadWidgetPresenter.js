@@ -53,7 +53,7 @@ define([
       };
 
       data['indicator_ids[]'] = model.indicators.join(',') || '';
-      return window.gfw.config.CLIMATE_API_HOST + '/api/downloads?' + $.param(data);
+      return window.gfw.config.CLIMATE_API_HOST + '/downloads?' + $.param(data);
     },
 
     goBack: function() {
